@@ -37,23 +37,21 @@ Publications
 
 Conference Papers
 ------
-<ul>
 {% for post in site.publications reversed %}
   {% if post.category == 'conferences' %}
-    {% include archive-single-cv.html %}
+**[{{ post.title }}]({{ post.url | prepend: base_path }})** ({{ post.date | date: "%Y" }})<br />
+{{ post.citation }}
   {% endif %}
 {% endfor %}
-</ul>
 
 Preprints
 ------
-<ul>
 {% for post in site.publications reversed %}
   {% if post.category == 'preprints' %}
-    {% include archive-single-cv.html %}
+**[{{ post.title }}]({{ post.url | prepend: base_path }})** ({{ post.date | date: "%Y" }})<br />
+{{ post.citation }}
   {% endif %}
 {% endfor %}
-</ul>
 
 Honors and Awards
 ======
