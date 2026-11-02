@@ -1,0 +1,26 @@
+name: Verify Jekyll build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.328.0
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "/LJT-Homepage" --verbose
+        env:
+          JEKYLL_ENV: production
+      - name: Show generated files
+        run: |
+          find _site -maxdepth 2 -name "*.html" | sort
+          echo "----- ABOUT PAGE -----"
+          cat _site/index.html
