@@ -9,10 +9,8 @@ venue: "EMNLP 2024"
 citation: '<strong>Junteng Liu</strong>, Shiqi Chen, Yu Cheng, Junxian He. (2024). &quot;On the Universal Truthfulness Hyperplane Inside LLMs.&quot; <i>EMNLP 2024</i>.'
 ---
 
-**On the Universal Truthfulness Hyperplane Inside LLMs**
+**Authors:** **Junteng Liu**, Shiqi Chen, Yu Cheng, Junxian He
 
-**Junteng Liu**, Shiqi Chen, Yu Cheng, Junxian He
+**Venue:** EMNLP 2024
 
-*EMNLP 2024*
-
-Code: [Universal_Truthfulness_Hyperplane](https://github.com/Vicent0205/Universal_Truthfulness_Hyperplane)
+**Code:** [Universal_Truthfulness_Hyperplane](https://github.com/Vicent0205/Universal_Truthfulness_Hyperplane)

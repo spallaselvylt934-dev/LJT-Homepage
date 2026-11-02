@@ -9,10 +9,8 @@ venue: "arXiv"
 citation: '<strong>Junteng Liu</strong>, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He. (2025). &quot;On the Perception Bottleneck of VLMs for Chart Understanding.&quot; <i>arXiv</i>.'
 ---
 
-**On the Perception Bottleneck of VLMs for Chart Understanding**
+**Authors:** **Junteng Liu**, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He
 
-**Junteng Liu**, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He
+**Venue:** arXiv, 2025
 
-*arXiv, 2025*
-
-Code: [Vision4Chart](https://github.com/Vicent0205/Vision4Chart)
+**Code:** [Vision4Chart](https://github.com/Vicent0205/Vision4Chart)

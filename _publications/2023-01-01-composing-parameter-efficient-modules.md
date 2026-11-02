@@ -9,8 +9,6 @@ venue: "NeurIPS 2023"
 citation: 'Jinghan Zhang, Shiqi Chen, <strong>Junteng Liu</strong>, Junxian He. (2023). &quot;Composing Parameter-Efficient Modules with Arithmetic Operations.&quot; <i>NeurIPS 2023</i>.'
 ---
 
-**Composing Parameter-Efficient Modules with Arithmetic Operations**
+**Authors:** Jinghan Zhang, Shiqi Chen, **Junteng Liu**, Junxian He
 
-Jinghan Zhang, Shiqi Chen, **Junteng Liu**, Junxian He
-
-*NeurIPS 2023*
+**Venue:** NeurIPS 2023
